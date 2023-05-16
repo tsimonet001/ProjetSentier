@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/text_longueur"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/longueur_de_la_visite" />
+
+    <Spinner
+        android:id="@+id/spinner_longueur"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/longueurs" />
+
+    <TextView
+        android:id="@+id/text_information"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/quantit_d_information_disponible" />
+
+    <Spinner
+        android:id="@+id/spinner_information"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/informations" />
+
+    <TextView
+        android:id="@+id/text_visite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/visite_individuelle_ou_en_groupe" />
+
+    <RadioGroup
+        android:id="@+id/radio_group_visite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioButton
+            android:id="@+id/radio_individuelle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/individuelle" />
+
+        <RadioButton
+            android:id="@+id/radio_groupe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/en_groupe" />
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/text_groupe"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/groupe" />
+
+    <Spinner
+        android:id="@+id/spinner_groupe"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:entries="@array/groupes"
+        android:visibility="gone" />
+
+    <CheckBox
+        android:id="@+id/checkbox_histoire"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/mode_histoire_mode_enfant_ludique" />
+
+    <Button
+        android:id="@+id/button_commencer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/commencer_la_visite" />
+
+</LinearLayout>

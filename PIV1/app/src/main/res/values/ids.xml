@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">PIV1</string>
+    <string name="longueur_de_la_visite">Longueur de la visite:</string>
+    <string name="quantit_d_information_disponible">Quantité d\'information disponible:</string>
+    <string name="visite_individuelle_ou_en_groupe">Visite individuelle ou en groupe:</string>
+    <string name="individuelle">Individuelle</string>
+    <string name="en_groupe">En groupe</string>
+    <string name="groupe">Groupe:</string>
+    <string name="mode_histoire_mode_enfant_ludique">Mode histoire (mode enfant/ludique)</string>
+    <string name="commencer_la_visite">Commencer la visite</string>
+    <string-array name="longueurs">
+        <item>5 km</item>
+        <item>10 km</item>
+        <item>15 km</item>
+        <item>20 km</item>
+    </string-array>
+    <string-array name="informations">
+        <item>Limitée</item>
+        <item>Développée</item>
+        <item>Complète</item>
+    </string-array>
+
+    <string-array name="groupes">
+        <item>Bleu</item>
+        <item>Rouge</item>
+        <item>Vert</item>
+    </string-array>
+
+    <item name="radio_groupe" type="id" />
+
+    <string-array name="titres_qrcodes">
+        <item>Blaireau</item>
+        <item>Chevreuil</item>
+        <item>Chevreuil 2</item>
+        <item>Chevreuil 3</item>
+        <item>Fouine 2</item>
+        <item>Airelle des Marais</item>
+        <item>Ancolie commune</item>
+        <item>Asphodèle blanc</item>
+        <item>Aulne glutineux</item>
+        <item>Bouton d or</item>
+        <item>Cardamine des prés</item>
+        <item>Chèvrefeuille</item>
+        <item>Cirse commun</item>
+        <item>Epiaire des bois</item>
+        <item>feuilles catalogue g et a</item>
+        <item>fiches catalogue</item>
+        <item>fiches IBGN</item>
+        <item>fiches oiseaux</item>
+        <item>Foin d odeur</item>
+        <item>Grande ortie</item>
+        <item>Houx</item>
+        <item>Laiteron maraîcher</item>
+        <item>Laurier</item>
+        <item>Millepertuis</item>
+        <item>Pissenlit</item>
+        <item>Pulmonaire</item>
+        <item>Raiponce en épi</item>
+        <item>Ronce</item>
+
+    </string-array>
+
+    <string-array name="titres_especes">
+        <item>Airelle des Marais</item>
+        <item>Ancolie Commune</item>
+        <item>Asphodèle blanc</item>
+        <item>Aulne glutineux</item>
+        <item>Bouton d or</item>
+        <item>Cardamine des prés</item>
+        <item>Chèvrefeuille</item>
+        <item>Cirse commun</item>
+        <item>Epiaire des bois</item>
+        <item>Foin d odeur</item>
+        <item>Grande ortie</item>
+        <item>Houx</item>
+        <item>Laiteron maraîcher</item>
+        <item>Laurier</item>
+
+    </string-array>
+    <string-array name="descriptions_especes">
+        <item>
+            "Nom latin :  Vaccinium uliginosum
+Type : Comestible et médicinale
+Statu : Préoccupation mineure
+Période d'observation : floraison d’une quinzaine de jours en été Habitat : Exposition ensoleillée dans des conditions modérées à fraîches dans des sols fertiles et bien drainés.
+Mode de reproduction : Autopolinisation
+Récolte des fruits: Juillet à Août"
+    </item>
+        <item>
+            "Nom latin : Aquilegia vulgaris
+Type : Médicinale et toxique
+Statu : Préoccupation mineure
+Période de floraison : Mai - Juillet
+Habitat : forêts feuillus clairsemées, taillis, haies, prairies, bois
+Mode de reproduction :
+Récolte des fruits : pas de récolte"
+        </item>
+        <item>
+            "Nom latin : Asphodelus albus
+Type : Comestible et médicinale
+Statu : Préoccupation mineure
+Période d'observation : Mai – septembre
+Habitat : Bois, landes, pelouses, prairies, fossés humides, prairies fraîches et bordures de route forestières, dans les clairières, sur les pentes des sous-bois clairs et humides.
+Mode de reproduction :  Hermaphrodite
+Récolte des fruits : Avril – juin"
+        </item>
+        <item>
+            "Nom latin : Alnus glutinosa
+Type : Utilitaire, médicinale et comestible
+Statut : Préoccupation mineure
+Période de floraison : Février - avril
+Habitat : Forêts alluviales le long des ruisseaux et rivières, sur sols riches et humides.
+Mode de reproduction :
+Récolte des fruits :"
+        </item>
+        <item>
+            "Nom latin : Ranunculus acris
+Type : Médicinale et toxique
+Statu : Préoccupation mineure
+Période de floraison : Juin - octobre
+Habitat : pâturages, prairies, bois frais, chemins, préfère les sols légèrement humides
+Mode de reproduction :  sexuée
+Récolte des fruits :"
+        </item>
+        <item>
+            "Nom latin : Cardamine pratensis
+Type : Médicinale et comestible
+Statut : Préoccupation mineure
+Période de floraison : Avril à mai
+Habitat : prairies de fauche humides, prairies marécageuses et inondables, forêts alluviales, berges, sols riches
+Mode de reproduction :
+Récolte : les rosettes se récoltent au printemps"
+        </item>
+        <item>
+            "Nom latin : Lonicera periclymenum
+Type : Utilitaire et comestible
+Statut : Préoccupation mineure
+Période d'observation : Mai - juin
+Habitat : forêts feuillues, clairières, lisières, broussailles, sur sols pauvres en calcaire et humides
+Mode de reproduction : sexuée et végétative
+Récolte des fruits : Mai"
+        </item>
+        <item>
+            "Nom latin : Cirsium vulgare
+Type : Comestible et médicinale
+Statut : Préoccupation mineure
+Période de floraison : Juillet - septembre
+Habitat : chemins, décombres, berges, coupes forestières, sols riches, emplacements lumineux
+Sexualité : hermaphrodite
+Récolte des fruits :"
+        </item>
+        <item>
+            "Nom latin : Stachys sylvatica
+Type : Comestible et médicinale
+Statut : Préoccupation mineure
+Période de floraison : Juin - septembre
+Habitat : forêts, taillis, sources de forêt, chemins forestiers, sols humides et riches
+Sexualité : hermaphrodite
+Récolte des fruits :"
+        </item>
+        <item>
+            "Nom latin : Hierochloe odorata
+Type : Comestible, médicinale et toxique
+Statut : Quasi-menacée
+Période de floraison : Mai – août
+Habitat : près des rivières et des prairies humides, bords de routes
+Mode de reproduction : androdioïque
+Récolte des fruits :"
+        </item>
+        <item>
+            "Nom latin : Urtica dioica
+Type : Comestible et médicinale
+Statut : Préoccupation mineure
+Période de floraison : Juin - octobre
+Habitat : bords des eaux, forêts inondables, décombres, haies, fossés
+Sexualité : Dioïque
+Récolte des fruits:"
+        </item>
+        <item>
+            "Nom latin : Ilex aquifolium
+Type : Médicinale et toxique
+Statut : Préoccupation mineure
+Floraison : Mai - juin
+Habitat : forêts, sur sols sablonneux ou rocailleux, en particulier sous les hêtraies
+Mode de reproduction :
+Récolte des fruits : Novembre à mars"
+        </item>
+        <item>
+            "Nom latin : Sonchus oleraceus
+Type : Médicinale et comestible
+Statu : Préoccupation mineure
+Période de floraison : Juin à l’automne
+Habitat : jardins, chemins, fossés, terrains incultes ou friches, climat tempéré
+Mode de reproduction :
+Récolte des fruits:"
+        </item>
+        <item>
+            "Nom latin : Laurus nobilis
+Type : Médicinale et comestible
+Statut : Préoccupation mineure
+Période d'observation : floraison au printemps
+Habitat : matorrals, fourrés de landes et de garrigues ou forêts méditerranéennes, préfère les sols frais
+Mode de reproduction :
+Récolte des fruits: Mars ?"
+        </item>
+    </string-array>
+</resources>

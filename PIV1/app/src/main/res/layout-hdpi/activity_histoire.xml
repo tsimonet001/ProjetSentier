@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".HistoireActivity">
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="La Quête des Trésors de la Forêt Enchantée"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.304"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="388dp"
+        android:layout_height="640dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="16dp"
+        android:text="Il était une fois, dans un petit village, un groupe de jeunes aventuriers passionnés par les légendes des trésors cachés dans la forêt enchantée qui s'étendait au-delà des montagnes. Ils avaient entendu des histoires fascinantes sur les richesses qui se trouvaient cachées sous les arbres magiques et les ruisseaux cristallins. Ils avaient décidé de partir à l'aventure pour trouver ces trésors légendaires.
+
+Cependant, la forêt enchantée n'était pas facile d'accès et était réputée pour être dangereuse. Les aventuriers savaient qu'ils avaient besoin d'aide pour réussir leur quête. C'est là que vous intervenez, cher lecteur ! Les aventuriers ont besoin de votre aide pour naviguer dans la forêt, trouver des indices et éviter les pièges.
+
+Le groupe d'aventuriers était composé de quatre jeunes gens courageux et déterminés : Emma, la chasseuse, Liam, l'archer, Max, le guerrier, et Mia, la magicienne. Chacun avait des compétences uniques qui les aideraient dans leur quête pour trouver les trésors cachés.
+
+Ils avaient préparé leur équipement, des provisions pour leur voyage et des cartes de la forêt enchantée. Ils étaient prêts à partir à l'aventure. Mais avant de partir, ils ont décidé de chercher de l'aide auprès des sages du village pour obtenir des informations sur la forêt. Les sages les ont mis en garde contre les dangers de la forêt et leur ont donné des conseils pour éviter les pièges.
+
+Les aventuriers ont écouté attentivement et ont pris note de chaque conseil donné par les sages. Ils ont ensuite commencé leur voyage vers la forêt enchantée, déterminés à trouver les trésors légendaires qui s'y trouvaient. Mais leur chemin ne sera pas facile. Ils devront faire face à de nombreux défis, tels que des monstres féroces, des énigmes complexes et des obstacles dangereux.
+
+C'est ici que votre aide sera précieuse. Aidez-les à naviguer dans la forêt enchantée, résoudre des énigmes, combattre des monstres et trouver des indices pour les aider dans leur quête de trésors cachés. Ensemble, vous pouvez aider les jeunes aventuriers à surmonter tous les obstacles qui se dressent sur leur chemin et trouver les trésors légendaires de la forêt enchantée."
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/button_visite"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_default="wrap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintWidth_default="wrap" />
+
+    <Button
+        android:id="@+id/button_visite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Suivant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
